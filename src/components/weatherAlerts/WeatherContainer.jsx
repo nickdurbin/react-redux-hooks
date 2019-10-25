@@ -11,7 +11,6 @@ const WeatherContainer = () => {
     useEffect(()=>{
         fetchWeatherAlerts();
     }, [fetchWeatherAlerts])
-
     
     console.log(alerts);
     return (
